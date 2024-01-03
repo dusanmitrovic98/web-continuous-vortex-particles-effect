@@ -48,3 +48,4 @@
         // Interact with other particles
         for (const particle of particles) {
           if (particle !== this) {
+            const dx = this.x - particle.x;
