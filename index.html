@@ -42,3 +42,4 @@
         this.angle += this.speed;
 
         // Calculate particle position in circular motion
+        this.x = canvas.width / 2 + Math.cos(this.angle) * this.radius;
